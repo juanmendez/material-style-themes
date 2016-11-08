@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--we generated this style file just to move styles from styles.xml
-we can also do the same for other resources such as colors.
+<!--
+We need some type of inheritance, as we are repeating some of the attributes for each style.
 -->
 <resources>
     <style name="AppSmallText">
