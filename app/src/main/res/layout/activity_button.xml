@@ -10,16 +10,26 @@
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:id="@+id/button0"
-        android:background="@drawable/button_background_selector"
-        android:textColor="@android:color/white"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:text="Button Two"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
         android:id="@+id/button1"
         android:layout_marginTop="50dp"
-        android:textColor="@color/button_color_selector"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
         android:layout_gravity="center_horizontal" />
+
+    <TextView
+        style="@style/AppLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Hello World" android:layout_gravity="center" />
+
+    <CheckBox
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AppMediumText"
+        android:textColor="@color/red"
+        android:text="My Check Box" />
 </LinearLayout>

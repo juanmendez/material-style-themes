@@ -9,9 +9,10 @@
     android:gravity="center"
     tools:context="info.juanmendez.md.stylesandthemes.MainActivity_">
 
+    <!--This time each textView is applying the style assigned as default to this widget-->
     <TextView
         android:id="@+id/textView0"
-        style="@style/AppSmallText"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -19,28 +20,28 @@
 
     <TextView
         android:id="@+id/textView1"
-        style="@style/AppMediumText"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Medium Text" />
 
     <TextView
         android:id="@+id/textView2"
-        style="@style/AppLargeText"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Large Text" />
 
     <TextView
         android:id="@+id/textView3"
-        style="@style/AppExtraLargeText"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Extra Large Text" />
 
     <TextView
         android:id="@+id/textView4"
-        style="@style/AppExtraLightText"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Extra Large Light" />
