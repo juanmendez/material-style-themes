@@ -8,30 +8,30 @@ We need some type of inheritance, as we are repeating some of the attributes for
         <item name="android:fontFamily">monospace</item>
     </style>
 
-    <style name="AppSmallText" parent="AppFont">
-        <item name="android:textSize">12sp</item>
+    <style name="AppFont.AppFontColorPrimary">
         <item name="android:textColor">#616161</item>
+    </style>
+
+    <style name="AppSmallText" parent="AppFont.AppFontColorPrimary">
+        <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="AppMediumText" parent="AppFont">
+    <style name="AppMediumText" parent="AppFont.AppFontColorPrimary">
         <item name="android:textSize">15sp</item>
-        <item name="android:textColor">#616161</item>
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="AppLargeText" parent="AppFont">
+    <style name="AppLargeText" parent="AppFont.AppFontColorPrimary">
         <item name="android:textSize">18sp</item>
-        <item name="android:textColor">#616161</item>
         <item name="android:textStyle">italic</item>
     </style>
 
-    <style name="AppExtraLargeText" parent="AppFont">
+    <style name="AppExtraLargeText" parent="AppFont.AppFontColorPrimary">
         <item name="android:textSize">22sp</item>
-        <item name="android:textColor">#616161</item>
     </style>
 
-    <style name="AppExtraLightText" parent="AppFont">
+    <style name="AppExtraLightText" parent="AppFont.AppFontColorPrimary">
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">#909090</item>
     </style>
