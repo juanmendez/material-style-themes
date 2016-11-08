@@ -1,5 +1,6 @@
 package info.juanmendez.md.stylesandthemes;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
@@ -9,9 +10,12 @@ import android.widget.TextView;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.OptionsItem;
+import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
 
 @EActivity(R.layout.activity_main)
+@OptionsMenu(R.menu.main_menu)
 public class MainActivity extends AppCompatActivity {
 
     @ViewById(R.id.textView5)
@@ -21,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
     void afterViews(){
         LinearGradient lg = new LinearGradient(0, 0, txtGradient.getTextSize(), 0, Color.GREEN, Color.RED, Shader.TileMode.MIRROR );
         txtGradient.getPaint().setShader( lg );
+    }
+
+    @OptionsItem(R.id.menu_button)
+    void onMenuButton(){
+        Intent intent = new Intent( this, MainButtonActivity_.class );
+        startActivity( intent );
     }
 }
