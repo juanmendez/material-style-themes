@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/styles-themes.iml" filepath="$PROJECT_DIR$/styles-themes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material-style-themes.iml" filepath="$PROJECT_DIR$/material-style-themes.iml" />
     </modules>
   </component>
 </project>

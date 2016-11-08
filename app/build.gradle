@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "$AppId"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.1"
@@ -39,8 +39,6 @@ dependencies {
     compile "com.android.support:design:$ASVersion"
     compile "com.android.support:recyclerview-v7:$ASVersion"
 
-    testCompile 'junit:junit:4.12'
-
     compile 'io.reactivex:rxjava:1.1.6'
     compile 'io.reactivex:rxandroid:1.2.1'
 
@@ -55,9 +53,5 @@ apt {
 
         // you should set your package name here if you are using different application IDs
         resourcePackageName "$AppId"
-
-        // You can set optional annotation processing options here, like these commented options:
-        // logLevel 'INFO'
-        // logFile '/var/log/aa.log'
     }
 }

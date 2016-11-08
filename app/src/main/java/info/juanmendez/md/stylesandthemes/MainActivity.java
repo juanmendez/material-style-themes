@@ -3,11 +3,8 @@ package info.juanmendez.md.stylesandthemes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import org.androidannotations.annotations.EActivity;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+@EActivity(R.layout.activity_main)
+public class MainActivity extends AppCompatActivity {
 }
