@@ -37,8 +37,11 @@ we can also do the same for other resources such as colors.
     </style>
 
     <style name="MyRadioButton">
+        <item name="android:text">My Radio Button</item>
         <item name="android:fontFamily">cursive</item>
         <item name="android:textColor">#F00</item>
         <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 </resources>

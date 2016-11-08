@@ -47,8 +47,5 @@
 
     <RadioButton
         android:id="@+id/myRadioButton"
-        style="@style/MyRadioButton"
-        android:text="My Radio Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        style="@style/MyRadioButton"/>
 </LinearLayout>

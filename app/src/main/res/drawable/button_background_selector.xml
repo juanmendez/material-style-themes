@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--this is an elegant way to define backgrounds based on states, and our button is assigned
+this file instead of a drawable background-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/sunshine_backbround"/>
+    <item android:drawable="@drawable/sunshine_rain_colors"/>
+</selector>
