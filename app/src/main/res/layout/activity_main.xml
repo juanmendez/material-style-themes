@@ -48,4 +48,37 @@
     <RadioButton
         android:id="@+id/myRadioButton"
         style="@style/MyRadioButton"/>
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:text="Gradient"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- delta x, y for shadowDx, and shadowDy-->
+    <TextView
+        android:id="@+id/textView6"
+        android:text="Shadow"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#616161"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Shadow"
+        android:textSize="70sp"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
 </LinearLayout>
