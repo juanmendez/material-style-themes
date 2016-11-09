@@ -1,9 +1,12 @@
 package info.juanmendez.md.stylesandthemes;
 
+import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -37,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
     @Click(R.id.button0)
     void onButton0Clicked(){
         Intent intent = new Intent( this, SecondActivity_.class );
-        startActivity( intent );
+
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP ){
+            ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this);
+            startActivity( intent, options.toBundle() );
+        }else{
+            startActivity( intent );
+        }
+
+
     }
 }
