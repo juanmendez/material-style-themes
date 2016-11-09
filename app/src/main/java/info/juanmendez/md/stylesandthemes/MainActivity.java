@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import org.androidannotations.annotations.AfterViews;
+import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.OptionsItem;
 import org.androidannotations.annotations.OptionsMenu;
@@ -30,6 +31,12 @@ public class MainActivity extends AppCompatActivity {
     @OptionsItem(R.id.menu_button)
     void onMenuButton(){
         Intent intent = new Intent( this, MainButtonActivity_.class );
+        startActivity( intent );
+    }
+
+    @Click(R.id.button0)
+    void onButton0Clicked(){
+        Intent intent = new Intent( this, SecondActivity_.class );
         startActivity( intent );
     }
 }

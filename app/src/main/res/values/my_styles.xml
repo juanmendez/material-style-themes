@@ -44,8 +44,7 @@ We need some type of inheritance, as we are repeating some of the attributes for
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="MyButtonStyle">
-        <item name="android:background">@drawable/button_background_selector</item>
+    <style name="MyButtonStyle" parent="Base.Widget.AppCompat.Button.Small">
         <item name="android:textColor">@color/button_color_selector</item>
         <item name="android:gravity">center</item>
     </style>

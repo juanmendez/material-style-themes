@@ -10,6 +10,12 @@
     tools:context="info.juanmendez.md.stylesandthemes.MainActivity_">
 
     <!--This time each textView is applying the style assigned as default to this widget-->
+    <Button
+        android:text="Move to 2nd Activity"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button0" />
+
     <TextView
         android:id="@+id/textView0"
 

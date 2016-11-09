@@ -18,6 +18,11 @@
         <activity android:name=".MainButtonActivity_">
 
         </activity>
+
+
+        <activity android:name=".SecondActivity_">
+
+        </activity>
     </application>
 
 </manifest>
