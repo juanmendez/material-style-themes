@@ -1,4 +1,4 @@
-package info.juanmendez.md.stylesandthemes;
+package info.juanmendez.md.befamiliar;
 
 import android.support.v4.app.Fragment;
 

@@ -7,7 +7,7 @@
     android:padding="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="info.juanmendez.md.stylesandthemes.MainActivity_">
+    tools:context="info.juanmendez.md.befamiliar.MainActivity_">
 
     <!--This time each textView is applying the style assigned as default to this widget-->
     <Button

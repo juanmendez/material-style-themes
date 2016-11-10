@@ -4,7 +4,7 @@ apply plugin: 'me.tatarka.retrolambda'
 
 def AAVersion = '4.1.0'
 def ASVersion = '24.2.0'
-def AppId = "info.juanmendez.md.stylesandthemes"
+def AppId = "info.juanmendez.md.befamiliar"
 
 android {
     compileSdkVersion 24

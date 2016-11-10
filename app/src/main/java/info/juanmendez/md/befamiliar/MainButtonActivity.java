@@ -1,4 +1,4 @@
-package info.juanmendez.md.stylesandthemes;
+package info.juanmendez.md.befamiliar;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

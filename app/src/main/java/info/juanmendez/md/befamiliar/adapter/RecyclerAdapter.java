@@ -1,4 +1,4 @@
-package info.juanmendez.md.stylesandthemes.adapter;
+package info.juanmendez.md.befamiliar.adapter;
 
 /**
  * Created by Juan Mendez on 11/9/2016.
@@ -6,5 +6,5 @@ package info.juanmendez.md.stylesandthemes.adapter;
  * contact@juanmendez.info
  */
 
-public class NavigationDrawerAdapter {
+public class RecyclerAdapter {
 }
