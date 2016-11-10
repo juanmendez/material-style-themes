@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="MyAppTheme" parent="MyBaseAppTheme">
+    <style name="MaterialTheme" parent="ParentMaterialTheme">
+        <item name="android:colorEdgeEffect">@color/red</item>
         <item name="android:windowActivityTransitions">true</item>
     </style>
 </resources>
