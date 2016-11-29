@@ -48,4 +48,11 @@ We need some type of inheritance, as we are repeating some of the attributes for
         <item name="android:textColor">@color/button_color_selector</item>
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="MyBaseToolbar" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyToolBarStyle" parent="MyBaseToolbar"></style>
 </resources>

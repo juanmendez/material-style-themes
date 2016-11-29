@@ -8,19 +8,19 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/MaterialTheme">
-        <activity android:name="info.juanmendez.md.befamiliar.MainActivity_">
+        <activity android:name=".app.MainActivity_">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="info.juanmendez.md.befamiliar.MainButtonActivity_">
+        <activity android:name=".app.MainButtonActivity_">
 
         </activity>
 
 
-        <activity android:name="info.juanmendez.md.befamiliar.SecondActivity_">
+        <activity android:name=".app.SecondActivity_">
 
         </activity>
     </application>
