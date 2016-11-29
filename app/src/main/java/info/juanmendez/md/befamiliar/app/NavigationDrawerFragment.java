@@ -1,4 +1,4 @@
-package info.juanmendez.md.befamiliar;
+package info.juanmendez.md.befamiliar.app;
 
 import android.support.v4.app.Fragment;
 

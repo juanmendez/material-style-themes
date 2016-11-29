@@ -1,4 +1,4 @@
-package info.juanmendez.md.befamiliar;
+package info.juanmendez.md.befamiliar.app;
 
 import android.app.ActivityOptions;
 import android.content.Intent;
@@ -15,6 +15,8 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.OptionsItem;
 import org.androidannotations.annotations.OptionsMenu;
 import org.androidannotations.annotations.ViewById;
+
+import info.juanmendez.md.befamiliar.R;
 
 @EActivity(R.layout.activity_main)
 @OptionsMenu(R.menu.main_menu)

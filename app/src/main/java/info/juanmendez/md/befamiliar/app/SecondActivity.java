@@ -1,4 +1,4 @@
-package info.juanmendez.md.befamiliar;
+package info.juanmendez.md.befamiliar.app;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,8 @@ import android.transition.Explode;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
+
+import info.juanmendez.md.befamiliar.R;
 
 
 /**
