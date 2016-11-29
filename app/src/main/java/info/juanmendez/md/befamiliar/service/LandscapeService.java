@@ -38,7 +38,7 @@ public class LandscapeService {
                 "Guns n' Roses",
                 "Motley Crue",
                 "Pink Floyd",
-                "Motörhead",
+                "Motorhead",
                 "Queen",
                 "Tesla"
         };

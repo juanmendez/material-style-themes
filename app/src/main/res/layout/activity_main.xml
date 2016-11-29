@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/MyToolBarStyle"
-        android:theme="@style/ToolBarTheme"
+        android:theme="@style/ToolbarTheme"
         app:popupTheme="@style/PopupTheme">
     </android.support.v7.widget.Toolbar>
 

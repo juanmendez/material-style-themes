@@ -13,15 +13,4 @@
     <style name="MaterialTheme" parent="ParentMaterialTheme">
 
     </style>
-
-
-    <style name="ToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColorPrimary">#fff</item>
-        <item name="android:textColorSecondary">#fff</item>
-    </style>
-
-    <style name="PopupTheme" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:textColorPrimary">@color/grey_800</item>
-        <item name="android:background">@color/overflowMenuBg</item>
-    </style>
 </resources>
