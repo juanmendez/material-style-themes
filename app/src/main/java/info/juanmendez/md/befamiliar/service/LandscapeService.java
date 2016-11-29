@@ -27,7 +27,8 @@ public class LandscapeService {
                 R.drawable.pink_floyd,
                 R.drawable.motorhead,
                 R.drawable.queen,
-                R.drawable.tesla
+                R.drawable.tesla,
+                R.drawable.zz_top
         };
 
         String[] titles = {
@@ -40,7 +41,8 @@ public class LandscapeService {
                 "Pink Floyd",
                 "Motorhead",
                 "Queen",
-                "Tesla"
+                "Tesla",
+                "ZZ Top"
         };
 
         for (int i = 0; i < images.length; i++) {
