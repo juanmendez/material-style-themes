@@ -32,11 +32,18 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+<<<<<<< HEAD
+    compile "com.android.support:appcompat-v7:$ASVersion"
+    compile "com.android.support:support-v4:$ASVersion"
+    compile "com.android.support:design:$ASVersion"
+    compile "com.android.support:recyclerview-v7:$ASVersion"
+    compile "com.android.support:cardview-v7:$ASVersion"
+=======
     implementation "com.android.support:appcompat-v7:$ASVersion"
     implementation "com.android.support:support-v4:$ASVersion"
     implementation "com.android.support:design:$ASVersion"
     implementation "com.android.support:recyclerview-v7:$ASVersion"
-    implementation "com.android.support:cardview-v7:$ASVersion"
+>>>>>>> 00_style_views
 
     implementation 'io.reactivex:rxjava:1.1.6'
     implementation 'io.reactivex:rxandroid:1.2.1'
